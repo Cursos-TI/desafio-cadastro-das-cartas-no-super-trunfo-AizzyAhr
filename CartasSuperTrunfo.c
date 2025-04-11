@@ -1,22 +1,67 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+int main (){
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+char estado;
+char codcarta[20];
+char cidade[20];
+float populacao;
+float area;
+float pib;
+int pontosturisticos;
 
-    return 0;
+printf("Seja bem-vindo ao super trunfo cartas, escolha um estado abaixo. \n");
+
+printf("A) Minas Gerais \n" "B) São Paulo \n" "C) Mato Grosso \n" "D) Bahia \n" "E) Manaus \n" "F) Rio de Janeiro \n" "G) Acre \n" "H) Rio Grande Do Sul \n");
+scanf(" %c", &estado);
+
+printf("Escolha o código da sua carta: \n" " %c01, %c02, %c03, %c04: ", estado, estado, estado, estado );
+scanf("%s", codcarta);
+
+printf("Escolha um nome para a sua cidade:");
+scanf("%s", cidade);
+
+printf("População da sua cidade:");
+scanf("%f", &populacao);
+
+printf("Área da sua cidade(em km²)");
+scanf("%f", &area);
+
+printf("Pib da sua cidade:");
+scanf("%f", &pib);
+
+printf("Pontos turisticos:");
+scanf("%d", &pontosturisticos);
+
+
+printf("Carta 1 \n" "Estado: %c\n" "Código da carta:%s\n" "Nome da cidade:%s\n" "População:%2.f\n" "Área:%2.fkm²\n" "Pib:%1.f Bilhões\n" "Número de pontos turisticos:%d\n",estado,codcarta,cidade,populacao,area,pib,pontosturisticos );
+
+
+printf("Carta 2\n");
+
+
+printf("A) Minas Gerais \n" "B) São Paulo \n" "C) Mato Grosso \n" "D) Bahia \n" "E) Manaus \n" "F) Rio de Janeiro \n" "G) Acre \n" "H) Rio Grande Do Sul \n");
+scanf(" %c", &estado);
+
+printf("Escolha o código da sua carta: \n" " %c01, %c02, %c03, %c04: ", estado, estado, estado, estado );
+scanf("%s", codcarta);
+
+printf("Escolha um nome para a sua cidade:");
+scanf("%s", cidade);
+
+printf("População da sua cidade:");
+scanf("%f", &populacao);
+
+printf("Área da sua cidade(em km²)");
+scanf("%f", &area);
+
+printf("Pib da sua cidade:");
+scanf("%f", &pib);
+
+printf("Pontos turisticos:");
+scanf("%d", &pontosturisticos);
+
+
+
+printf("Carta 2 \n" "Estado: %c\n" "Código da carta:%s\n" "Nome da cidade:%s\n" "População:%2.f\n" "Área:%2.fkm²\n" "Pib:%1.f Bilhões\n" "Número de pontos turisticos:%d",estado,codcarta,cidade,populacao,area,pib,pontosturisticos );
 }
