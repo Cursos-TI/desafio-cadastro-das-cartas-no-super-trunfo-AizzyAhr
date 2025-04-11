@@ -24,7 +24,7 @@ scanf("%s", cidade);
 printf("População da sua cidade:");
 scanf("%f", &populacao);
 
-printf("Área da sua cidade(em km²)");
+printf("Área da sua cidade:");
 scanf("%f", &area);
 
 printf("Pib da sua cidade:");
@@ -52,7 +52,7 @@ scanf("%s", cidade);
 printf("População da sua cidade:");
 scanf("%f", &populacao);
 
-printf("Área da sua cidade(em km²)");
+printf("Área da sua cidade:");
 scanf("%f", &area);
 
 printf("Pib da sua cidade:");
